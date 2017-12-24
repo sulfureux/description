@@ -1,7 +1,7 @@
 {
   "name": "description",
   "description": "desctiption(content, limit: 25, by: 'words')",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "Pierre Neter <pierreneter@gmail.com>",
   "keywords": [

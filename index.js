@@ -1,7 +1,7 @@
 var striptags = require('striptags')
 var stripmd = require('remove-markdown')
 
-module.exports = function description({ content, limit = null, endWith = '...', by = 'char' }) {
+module.exports = function ({ content, limit = null, endWith = '...', by = 'char' }) {
   var origin = striptags(stripmd(content));
   var result = '';
   var count = origin.length;
