@@ -2,6 +2,8 @@
 
 Get the `description` from the content of post / article / anything. Work with: `string`, `HTML`, `markdown`
 
+Warning: Need use the latest version of [uglifyjs-webpack-plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) if you are using this plugin for your project (because my package is using [`striptags`](https://github.com/ericnorris/striptags)).
+
 ## Install
 
 ```
